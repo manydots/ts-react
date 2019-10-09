@@ -1,0 +1,48 @@
+{
+  "name": "ts-react",
+  "version": "0.0.1",
+  "description": "react && ts",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "webpack-dev-server  --inline --colors --hot --open --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manydots/ts-react.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "fs-extra": "^8.1.0",
+    "globby": "^10.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "awesome-typescript-loader": "~5.2.1",
+    "clean-webpack-plugin": "^2.0.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "react": "~16.8.6",
+    "react-dom": "~16.8.6",
+    "less": "~3.8.1",
+    "less-loader": "~4.1.0",
+    "postcss-loader": "^2.1.6",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "~3.5.3",
+    "webpack": "~4.16.5",
+    "webpack-cli": "~3.2.3",
+    "webpack-dev-server": "~3.7.2"
+  },
+  "author": "mo.chen",
+  "license": "MIT"
+}
